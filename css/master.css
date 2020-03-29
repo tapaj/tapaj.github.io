@@ -109,6 +109,7 @@ header a {
 
 .landing-page {
     height: 100vh;
+    min-height: 500px;
 }
 
 .landing-page h1:last-child {
@@ -198,6 +199,10 @@ footer h2 {
     .right-content {
         width: 90%;
         margin: 0 auto;
+    }
+    
+    h1 {
+        font-size: 3.5em;
     }
 
     nav {
