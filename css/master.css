@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #16161A;
+    color: #94A1B2;
+
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+/* Global */
+
+h1 {
+    color: #FFFFFE;
+    font-size: 4em;
+}
+
+h2 {
+    color: #FFFFFE;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+a {
+    color: #A891EE;
+    font-size: 1.1em;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.logo {
+    font-size: 2em;
+    color: #FFFFFE;
+}
+
+.highlight {
+    color: #A891EE;
+}
+
+.left-sidebar {
+    float: left;
+}
+
+.right-content {
+    float: right;
+    width: 75%;
+}
+
+/* nav */
+
+nav {
+    overflow: hidden;
+
+    position: fixed;
+    
+    margin-top: 10vh;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 7vh;
+}
+
+nav li a {
+    color: #94A1B2;
+
+    text-decoration: none;
+}
+
+/* landing page */
+
+header {
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+header .logo {
+    float: left;
+}
+
+header a {
+    float: right;
+}
+
+.landing-page {
+    height: 100vh;
+}
+
+.landing-page h1:last-child {
+    margin-top: 100px;
+}
+
+/* main */
+
+.about-me-container{
+    padding: 80px 0 0 0;
+    overflow: hidden;
+}
+
+.about-me-container h2 {
+    float: left;
+    width: 33%;
+}
+
+.about-me-container p {
+    float: right;
+    width: 66%;
+}
+
+.project-container {
+    padding: 80px 0 80px 0;
+    overflow: hidden;
+}
+
+.project-card-column {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-card {
+    width: 40%;
+    height: 500px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    background-color: #242629;
+}
+
+/* Footer */
+
+footer {
+    display: block;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #242629;
+}
+
+footer aside {
+    position: relative;
+
+    top: 60vh;
+}
+
+footer aside h3, footer aside li {
+    margin-bottom: 7vh;
+}
+
+footer aside ul {
+    list-style: none;
+}
+
+footer aside a {
+    color: #94A1B2;
+    text-decoration: none;
+}
+
+
+footer h2 {
+    margin: 20vh 0 5vh 0;
+}
