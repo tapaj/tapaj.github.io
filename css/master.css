@@ -116,6 +116,27 @@ header a {
     margin-top: 20vh;
 }
 
+.landing-page img {
+    position: absolute;
+    bottom: 5vh;
+    right: 10%;
+
+    z-index: -1;
+
+    width: 30vh;
+    box-shadow: -5px -5px 5px #16161AAA;
+}
+
+.landing-page img:first-of-type {
+    position: absolute;
+    bottom: 12vh;
+    right: 14%;
+
+    z-index: -2;
+
+    width: 30vh;
+}
+
 /* main */
 
 .about-me-container{
@@ -194,6 +215,12 @@ footer h2 {
 }
 
 /* responsiveness */
+
+@media only screen and (max-width: 1400px) {
+    .landing-page img {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 850px) {
     .right-content {
